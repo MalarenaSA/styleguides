@@ -23,7 +23,7 @@ There are various existing PHP style guides that have been drawn on in making th
 - Filenames should be saved as ```camelCase.php```
 
 ## 2) Spacing & Line ending
-- PHP code must be indented by 2 spaces for each indent level, including code that is imbedded within HTML
+- PHP code must be indented by 2 spaces for each indent level, including code that is embedded within HTML
 - When including ```<?php  ?>``` in HTML, ensure the ```<?php``` opening element is positioned on the same line as the previous closing HTML ```</...>``` element, to avoid extra whitespace being output
 - Each PHP statement should end with a semi-colon ```;``` although when using the short-echo format semi-colons are not required
 - There should be no trailing whitespace at the end of lines
@@ -81,4 +81,4 @@ if ($expr) {
 - A ```for``` statement would start: ```for ($i = 0; $i <  10; $i++) {```
 - A ```foreach``` statement would start: ```foreach ($iterable as $key => $value) {```
 - The keyword ```elseif``` should be used instead of two separate keywords ```else if```
-- When imbedding control structures within HTML the alternative syntax of ```if () :```, ```elseif() :```, ```else :```, ```endif;``` / ```for () :```, ```endfor;``` / ```foreach () :```, ```endforeach;``` etc. should be used (with a space between the end bracket and colon) in order to avoid confusion with where to place opening and closing curly brackets
+- When embedding control structures within HTML the alternative syntax of ```if () :```, ```elseif() :```, ```else :```, ```endif;``` / ```for () :```, ```endfor;``` / ```foreach () :```, ```endforeach;``` etc. should be used (with a space between the end bracket and colon) in order to avoid confusion with where to place opening and closing curly brackets

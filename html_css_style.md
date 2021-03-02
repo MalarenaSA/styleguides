@@ -20,9 +20,10 @@ There are various existing HTML and CSS style guides that have been drawn on in 
 - There should be no trailing whitespace at the end of lines
 
 ## 2) HTML-specific rules
-- Do not include spaces between attibutes and their values, and always enclose attribute values in double-quotes, e.g. ```<div class="myClass">```. An exception to this is when using PHP to output HTML, the PHP string will be in double-quotes, and the attributes then in single-quotes, e.g. ```echo "<div class='myClass'>"```
+- Do not include spaces between attributes and their values, and always enclose attribute values in double-quotes, e.g. ```<div class="myClass">```. An exception to this is when using PHP to output HTML, the PHP string will be in double-quotes, and the attributes then in single-quotes, e.g. ```echo "<div class='myClass'>"```
 - Close all HTML elements with their closing tag, e.g. ```<p>Hello World</p>```
 - Close all empty elements, e.g. use ```<br />``` instead of ```<br>```
+- Keep in mind good accessibility principles, such as colour-safe palettes, descriptive headings and links, ARIA attributes, etc.
 - Use HTML elements for what they were created for, such as ```<h#>``` for headings, ```<p>``` for paragraphs, ```<a>``` for anchor links, etc.
 - Always specify the ```alt``` attribute for images. It is also best practice to define the ```width``` and ```height``` attributes, either within the element or via CSS
 - Omit the ```type``` attribute for style sheets (unless not using CSS) and scripts (unless not using JavaScript)

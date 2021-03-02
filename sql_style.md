@@ -28,9 +28,9 @@ There are various existing SQL style guides that have been drawn on in making th
 ## 4) Naming and Declaring
 - All SQL keywords must be in UPPER case, e.g, ```SELECT```
 - All Data-types must be in UPPER case, e.g. ```VARCHAR```
-- Boolan values ```TRUE``` and ```FALSE```, as well as ```NULL``` should all be in UPPER case
+- Boolean values ```TRUE``` and ```FALSE```, as well as ```NULL``` should all be in UPPER case
 - Database and Table names should be in lower_case_separated_by_underscores
-- Field names, indexes, events and stored routines should be in PascalCase. This is prefered to differentiate SQL fields from PHP/JS variables usually written in camelCase.
+- Field names, indexes, events and stored routines should be in PascalCase. This is preferred to differentiate SQL fields from PHP/JS variables usually written in camelCase.
 - Enclose database, table and field names in back-ticks, e.g. ```SELECT `users`.`UserID` AS `ID`...```
 - Tables and Views should generally be plural, with Fields being singular
 - For any primary key ID field, include the table name in the field name, e.g. ```users.UserID```. For all other fields avoid using the table name as the prefix to the field name, e.g. ```users.Address``` instead of ```users.UserAddress```
